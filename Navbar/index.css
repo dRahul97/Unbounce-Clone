@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#nav-container {
+  display: flex;
+  border: 0px solid red;
+  background-color: #303030;
+  position: fixed;
+  width: 100%;
+  height: 90px;
+  color: #fff;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+}
+
+#nav-container > img {
+  border: 0px solid yellow;
+  width: 160px;
+  height: 37px;
+  margin-left: 13%;
+}
+
+#mid-section {
+  border: 0px solid teal;
+  display: flex;
+  width: 26%;
+  height: 55px;
+  margin-left: -14%;
+  margin-top: -10px;
+  font-family: "source sans pro", sans-serif;
+}
+
+#mid-section ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  gap: 40px;
+}
+#mid-section ul li {
+  list-style-type: none;
+  border: 0px solid red;
+  /* color: #fff; */
+}
+#mid-section ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#last-section {
+  border: 0px solid blue;
+  display: flex;
+  margin-right: 5%;
+}
+#last-section ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  gap: 13px;
+}
+#last-section ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "source sans pro", sans-serif;
+}
+#last-section ul li {
+  list-style-type: none;
+}
+#login {
+  display: flex;
+  width: 70px;
+  height: 42px;
+  border: 1px solid #fff;
+  background-color: #303030;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+}
+#login a {
+  color: #fff;
+}
+#login:hover {
+  background-color: rgb(88, 88, 88);
+}
+#trial {
+  display: flex;
+  width: 200px;
+  height: 42px;
+  border: 1px solid #fff;
+  background-color: #fff;
+  border-radius: 2px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+#trial a {
+  color: black;
+}
+#trial:hover {
+  background-color: rgb(88, 88, 88);
+}
+#trial:hover > a {
+  color: #fff;
+}
+
+.search-box {
+  position: absolute;
+
+  left: 60%;
+  padding: 10px;
+  margin-right: 20px;
+  border: none;
+}
+.search-btn {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  transition: 0.4s;
+  color: #fff;
+}
+.search-txt {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: #fff;
+  font-size: 16px;
+  transition: 0.5s;
+  line-height: 20px;
+  width: 0px;
+}
+/* .search-box:hover > .search-txt {
+    width: 240px;
+    padding: 0px 4px;
+  } */
