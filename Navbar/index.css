@@ -208,3 +208,7 @@
   text-decoration: none;
   margin-left: 55px;
 }
+.left-part a:hover {
+  background-color: #ffa1a1;
+  color: #303030;
+}
