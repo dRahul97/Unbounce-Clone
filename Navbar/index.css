@@ -15,11 +15,11 @@
   margin: auto;
 }
 
-#nav-container > img {
+#nav-container > a > img {
   border: 0px solid yellow;
   width: 160px;
   height: 37px;
-  margin-left: 13%;
+  margin-left: 156%;
 }
 
 #mid-section {
@@ -27,7 +27,7 @@
   display: flex;
   width: 26%;
   height: 55px;
-  margin-left: -14%;
+
   margin-top: -10px;
   font-family: "source sans pro", sans-serif;
 }
@@ -54,6 +54,7 @@
   border: 0px solid blue;
   display: flex;
   margin-right: 5%;
+  cursor: pointer;
 }
 #last-section ul {
   display: flex;
@@ -61,6 +62,7 @@
   align-items: center;
   margin: auto;
   gap: 13px;
+  margin-top: -9px;
 }
 #last-section ul li a {
   text-decoration: none;
@@ -109,8 +111,8 @@
 
 .search-box {
   position: absolute;
-
-  left: 60%;
+  top: 22%;
+  left: 58%;
   padding: 10px;
   margin-right: 20px;
   border: none;
