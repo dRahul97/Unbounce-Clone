@@ -100,7 +100,7 @@
   height: 600px;
   margin-top: 10px;
 }
-.main2 video {
+.videoCss {
   border: 0px solid blue;
   width: 46%;
   height: 90%;
@@ -263,8 +263,117 @@
 }
 
 .main-5 {
-  border: 1px solid teal;
+  border: 0px solid teal;
   width: 100%;
   height: 900px;
-  margin-top: 10px;
+  display: flex;
+  margin: auto;
+  margin-top: 50px;
+  flex-direction: column;
+}
+
+#top-section {
+  border: 0px solid red;
+  width: 70%;
+  height: 30%;
+  margin: auto;
+}
+
+#top-section > h2 {
+  text-align: center;
+  font-family: "Barlow semi condensed";
+  font-size: 56px;
+  padding: 12px 0px 12px 0px;
+  font-weight: 400;
+  color: #303030;
+}
+#top-section > p {
+  text-align: center;
+  border: 0px solid teal;
+  width: 55%;
+  margin: auto;
+  font-size: 18px;
+  padding: 10px 0px 10px 0px;
+  line-height: 30px;
+  color: gray;
+  font-family: "Barlow semi condensed";
+}
+#bottom-section {
+  border: 0px solid red;
+  margin: auto;
+  width: 72%;
+  height: 78%;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+#bottom-section .videeo {
+  border: 0px solid blue;
+  width: 48%;
+  height: 95%;
+  margin: auto;
+}
+
+.video2Css {
+  border: 0px solid blue;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+}
+
+#bottom-section #besideImg {
+  border: 0px solid blue;
+  width: 48%;
+  height: 95%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+}
+#besideImg > div {
+  border: 0px solid blue;
+  width: 80%;
+  height: 47%;
+  margin: auto;
+}
+
+#besideImg > div > img {
+  border: 0px solid;
+  width: auto;
+  height: auto;
+  margin: auto;
+  margin-left: -57px;
+}
+#besideImg > div > h3 {
+  font-size: 28px;
+  font-family: "Barlow semi condensed";
+  font-weight: 300;
+  width: 95%;
+  border: 0px solid red;
+  padding: 14px 0px 14px 0px;
+  margin: -62px 0px 10px 14px;
+}
+#besideImg > div > p {
+  font-size: 18px;
+  font-family: "source sans pro", sans-serif;
+  width: 95%;
+  border: 0px solid red;
+  padding: 12px 0px 10px 0px;
+  margin-left: 16px;
+  color: #aeaeae;
+  line-height: 30px;
+}
+#besideImg > div > a {
+  font-size: 18px;
+  font-family: "source sans pro", sans-serif;
+  text-decoration: none;
+  color: #303030;
+  padding: 15px;
+  margin: 15px 5px;
+  position: absolute;
+  font-weight: 600;
+}
+#besideImg > div > a:hover {
+  color: blue;
 }
