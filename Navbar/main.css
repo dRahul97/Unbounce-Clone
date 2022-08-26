@@ -92,11 +92,31 @@
 .bottom3 > div > a:hover {
   border: 2px solid blue;
 }
+
+/* Video css - main-2*/
 .main2 {
-  border: 1px solid teal;
+  border: 0px solid teal;
   width: 100%;
-  height: 500px;
+  height: 600px;
   margin-top: 10px;
+}
+.main2 video {
+  border: 0px solid blue;
+  width: 46%;
+  height: 90%;
+  margin: auto;
+  display: flex;
+  margin-top: 25px;
+}
+.playpause_img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
 }
 
 .main3 {
@@ -185,4 +205,66 @@
 }
 .bottoms3 > div > a:hover {
   border: 2px solid blue;
+}
+
+.main4 {
+  border: 0px solid teal;
+  width: 100%;
+  height: 400px;
+  margin-top: 10px;
+  background-color: #f3f1ee;
+  display: flex;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.main4 > div {
+  border: 0px solid blue;
+  display: flex;
+  margin: auto;
+}
+.main4 #left {
+  border: 0px solid red;
+  width: 15%;
+  margin: auto;
+  height: 180px;
+  margin-top: 60px;
+}
+#left > img {
+  height: 175px;
+}
+.main4 #right {
+  border: 0px solid red;
+  width: 83%;
+  height: 85%;
+  margin: auto;
+  margin-top: 50px;
+}
+#right > p {
+  font-weight: 400;
+  font-size: 34.2016px;
+  line-height: 48px;
+  color: #303030;
+  font-family: "Barlow semi condensed";
+  width: 90%;
+  border: 0px solid teal;
+  padding-left: 10px;
+}
+#right > div {
+  font-size: 21.5263px;
+  line-height: 27px;
+  padding: 40px 6px;
+  font-family: "source sans pro", sans-serif;
+  color: #303030;
+}
+#right img {
+  width: 300px;
+  padding-left: 4px;
+}
+
+.main-5 {
+  border: 1px solid teal;
+  width: 100%;
+  height: 900px;
+  margin-top: 10px;
 }
