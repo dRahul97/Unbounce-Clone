@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#container {
+  border: 0px solid red;
+  width: 100%;
+  height: 925px;
+  display: flex;
+}
+#container #left {
+  border: 0px solid #03f;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+#container #left #data {
+  border: 0px solid salmon;
+  width: 440px;
+  height: 480px;
+  margin: auto;
+}
+#data > #heading {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 30px;
+}
+#data > #heading > img {
+  width: 210px;
+  height: 60px;
+}
+#data > #heading > p {
+  font-family: "source sans pro", sans-serif;
+  font-size: 23px;
+}
+#data #signUp {
+  display: flex;
+  flex-direction: column;
+  border: 0px solid;
+  height: 80%;
+  margin: auto;
+  width: 98%;
+  gap: 20px;
+}
+#signUp form {
+  border: 0px solid red;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  width: 90%;
+  height: 80%;
+  margin: auto;
+  font-family: "source sans pro", sans-serif;
+}
+form > a {
+  color: #03f;
+  text-decoration: none;
+}
+form > label {
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+form > input {
+  border: none;
+  border-bottom: 1px solid grey;
+  font-size: 15px;
+  padding: 5px 0;
+}
+form #submit {
+  width: 100%;
+  height: 50px;
+  margin: auto;
+  font-size: 16px;
+  font-family: "source sans pro", sans-serif;
+  color: white;
+  background-color: #03f;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+}
+form #submit:hover {
+  background-color: #0022b0;
+  transition: 0.4s;
+}
+#signUp > div {
+  text-align: center;
+  border: 0px solid teal;
+  height: 20%;
+  width: 98%;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  margin: auto;
+  font-size: 15px;
+  font-family: "source sans pro", sans-serif;
+  color: grey;
+}
+#signUp > div > p {
+  color: #03f;
+}
+#signUp > div > div > a {
+  color: grey;
+  line-height: 25px;
+}
+#container #right {
+  border: 0px solid blue;
+  background-color: #f3f1ee;
+  width: 50%;
+  height: 100%;
+  margin: auto;
+}
+#container #right img {
+  height: 100%;
+}
