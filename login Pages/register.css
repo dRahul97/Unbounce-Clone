@@ -19,23 +19,25 @@
 }
 #container #left #data {
   border: 0px solid salmon;
-  width: 440px;
-  height: 480px;
+  width: 80%;
+  height: 70%;
   margin: auto;
 }
 #data > #heading {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   margin-bottom: 30px;
 }
 #data > #heading > img {
   width: 210px;
   height: 60px;
+  margin-left: -70px;
 }
 #data > #heading > p {
   font-family: "source sans pro", sans-serif;
   font-size: 23px;
+  padding-left: 30px;
 }
 #data #signUp {
   display: flex;
@@ -43,29 +45,48 @@
   border: 0px solid;
   height: 80%;
   margin: auto;
-  width: 98%;
+  width: 95%;
   gap: 20px;
 }
 #signUp form {
   border: 0px solid red;
-  display: flex;
-  flex-direction: column;
-  gap: 17px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 18px 40px;
   width: 90%;
   height: 80%;
   margin: auto;
   font-family: "source sans pro", sans-serif;
+  padding: 20px 0px;
 }
 form > a {
   color: #03f;
   text-decoration: none;
 }
-form > label {
+form > div > label {
   font-weight: 600;
-  font-size: 18px;
+  font-size: 15px;
   letter-spacing: 0.5px;
+  padding: 20px 0px;
 }
-form > input {
+#plan {
+  height: 34px;
+  font-size: 14px;
+  margin-top: -5px;
+  border: 1px solid #a8a8a8;
+  border-radius: 4px;
+  outline-color: rgb(60, 148, 255);
+  padding-left: 5px;
+  font-family: "source sans pro", sans-serif;
+  color: grey;
+}
+
+form > div {
+  display: flex;
+  flex-direction: column;
+}
+form > div > input {
   border: none;
   border-bottom: 1px solid grey;
   font-size: 15px;
@@ -73,9 +94,8 @@ form > input {
   outline: none;
 }
 form #submit {
-  width: 100%;
+  width: 134%;
   height: 50px;
-  margin: auto;
   font-size: 16px;
   font-family: "source sans pro", sans-serif;
   color: white;
@@ -84,6 +104,9 @@ form #submit {
   border-radius: 4px;
   font-weight: 600;
   cursor: pointer;
+  position: relative;
+  left: 130px;
+  margin-top: 20px;
 }
 form #submit:hover {
   background-color: #0022b0;
